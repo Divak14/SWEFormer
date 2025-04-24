@@ -1,7 +1,6 @@
 import torch
 import torch.optim as optim
 from torch.optim.lr_scheduler import SequentialLR, LinearLR, CosineAnnealingLR
-from pytorch_forecasting.metrics import QuantileLoss
 import torch.nn as nn
 
 def setup_training(model, loss_type='mse', lr=0.00005, weight_decay=0.01, betas=(0.9, 0.999), quantiles=[0.5], 
