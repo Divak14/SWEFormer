@@ -14,3 +14,8 @@ import gdown
 file_id = '1XgHYFKpmK0y7xfXNNdOc87h52_X2qaRS'
 url = f'https://drive.google.com/uc?export=download&id={file_id}'
 gdown.download(url, 'Training_data_ERA5_datasets.pkl', quiet=False)
+
+
+file_id = '1EvhE3L65rZslg-C5Tso2KUa6XeWmj2KD'
+url = f'https://drive.google.com/uc?export=download&id={file_id}'
+gdown.download(url, 'Training_data_insitu_datasets.pkl', quiet=False)
