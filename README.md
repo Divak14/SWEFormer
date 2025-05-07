@@ -7,7 +7,10 @@ A transformer based deep learning architecture to predict the peak Snow water eq
 
 In order to run this colab, download data from here
 
-''' import gdown
+```python
+import gdown
+
+# Download the dataset from Google Drive
 file_id = '1XgHYFKpmK0y7xfXNNdOc87h52_X2qaRS'
 url = f'https://drive.google.com/uc?export=download&id={file_id}'
-gdown.download(url, 'Training_data_ERA5_datasets.pkl', quiet=False) '''
+gdown.download(url, 'Training_data_ERA5_datasets.pkl', quiet=False)
